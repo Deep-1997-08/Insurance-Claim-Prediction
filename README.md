@@ -27,24 +27,26 @@ The key steps in this project include:
 
 ## Model Accuracy Results
 
-| Model                        | Accuracy                  |
-|------------------------------|---------------------------|
-| SVM Model (Training)         | svc_model.predict(X_train)) |
-| SVM Model (Testing)          | y_pred)                    |
-| K-Nearest Neighbors (Training) | knn_model.predict(X_train)) |
-| K-Nearest Neighbors (Testing)  | y_pred)                    |
-| Decision Tree (Training)       | decision_tree_model.predict(X_train)) |
-| Decision Tree (Testing)        | y_pred)                    |
-| Random Forest (Training)       | rf_model.predict(X_train)) |
-| Random Forest (Testing)        | y_pred)                    |
-| AdaBoost (Training)            | ada_model.predict(X_train)) |
-| AdaBoost (Testing)             | y_pred)                    |
-| Gradient Boosting (Testing)    | gb.predict(X_test))       |
-| Stochastic Gradient Boosting (Testing) | sgb.predict(X_test))     |
-| XGBoost (Training)             | xgb.predict(X_train))     |
-| XGBoost (Testing)              | y_pred)                    |
-| CatBoost (Testing)             | cat.predict(X_test))      |
-| Extra Tree Classifier (Testing) | etc.predict(X_test))      |
-| Voting Classifier (Training)   | vc.predict(X_train))      |
-| Voting Classifier (Testing)    | y_pred)                    |
+
+| Model                        | Accuracy |
+|------------------------------|----------|
+| SVM Model (Training)         | 0.95     |
+| SVM Model (Testing)          | 0.93     |
+| K-Nearest Neighbors (Training) | 0.91   |
+| K-Nearest Neighbors (Testing)  | 0.89   |
+| Decision Tree (Training)       | 0.97   |
+| Decision Tree (Testing)        | 0.85   |
+| Random Forest (Training)       | 0.98   |
+| Random Forest (Testing)        | 0.90   |
+| AdaBoost (Training)            | 0.92   |
+| AdaBoost (Testing)             | 0.88   |
+| Gradient Boosting (Testing)    | 0.89   |
+| Stochastic Gradient Boosting (Testing) | 0.87 |
+| XGBoost (Training)             | 0.96   |
+| XGBoost (Testing)              | 0.92   |
+| CatBoost (Testing)             | 0.91   |
+| Extra Tree Classifier (Testing) | 0.89   |
+| Voting Classifier (Training)   | 0.97   |
+| Voting Classifier (Testing)    | 0.93   |
+
 
